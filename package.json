@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@awesome.me/webawesome": "^3.14.0",
+    "lit": "^3.2.1"
+  },
+  "description": "My own Lit components, built on the free WebAwesome components. WebAwesome stays upstream's code, untouched; mine live here, separate.",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./dw-card": "./dist/dw-card.js"
+  },
+  "main": "dist/index.js",
+  "name": "@derusto/my-components",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "version": "0.1.0"
+}
